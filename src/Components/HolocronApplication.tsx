@@ -16,7 +16,7 @@ const useStyle = makeStyles({
 
 function HolocronApplication() {
 
-    const [state, setState] = useState(0)
+    const [state, setState] = useState(1)
     const classes = useStyle()
 
     switch (state) {
