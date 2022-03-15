@@ -8,7 +8,8 @@ const useStyles = makeStyles({
         width: 200,
         height: 200,
         perspective: 1000,
-        margin: '100px auto 0px'
+        paddingTop: 100,
+        margin: '0px auto 0px'
     },
     cube: {
         width: '100%',
