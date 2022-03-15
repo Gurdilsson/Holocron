@@ -24,11 +24,18 @@ const useStyles = makeStyles({
     }
 })
 
-function MainMenu() {
+interface MainMenuProps {
+    changeState: (number: number) => void
+}
+
+function MainMenu({ changeState }: MainMenuProps) {
     const classes = useStyles()
     return (
         <div className={classes.menuContainer}>
-            <div className={classes.menuButton}>
+            <div
+                className={classes.menuButton}
+                onClick={() => changeState(1)}
+            >
                 <div className={classes.menuText}>Les personnages</div>
             </div>
             <div className={classes.menuButton}>
