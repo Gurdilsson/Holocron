@@ -4,7 +4,6 @@ import React from "react";
 const useStyles = makeStyles({
     GalaxyTextZone: {
         border: 'solid',
-        margin: 5,
         padding: 10,
         textAlign: 'justify',
         flex: 1,

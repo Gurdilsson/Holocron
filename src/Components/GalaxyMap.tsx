@@ -12,10 +12,11 @@ import Utapau from '../Images/Planets/Utapau.png'
 import Paradisia from '../Images/Planets/Paradisia.png'
 import useWindowDimensions from "../Hooks/UseWindowDimension"
 import PlanetLore from '../Data/Planet.json'
-import BackToMenuButton from "./BackToMenuButton";
+import BackToMenuButton from "./BackToMenuButton"
 
 const useStyles = makeStyles({
     galaxyContainer: {
+        backgroundColor: 'black'
     }
 })
 
