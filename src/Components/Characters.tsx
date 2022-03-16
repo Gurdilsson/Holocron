@@ -45,7 +45,7 @@ const useStyles = makeStyles({
         overflow: 'scroll'
     },
     characterBackToMenuButton: {
-        position: 'absolute',
+        position: 'fixed',
         height: 20,
         width: 20,
         zIndex: 1000,

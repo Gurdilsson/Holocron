@@ -5,6 +5,7 @@ import Holocron from "./Holocron";
 import MainMenu from "./MainMenu";
 import StarSky from "../Images/Space_Stars_Background.png"
 import HolocronList from "./HolocronList";
+import GalaxyMap from "./GalaxyMap";
 
 const useStyle = makeStyles({
     title: {
@@ -35,11 +36,15 @@ function HolocronApplication() {
         case 1: return (
             <Characters
                 changeState={changeState}
-            />)
-        case 2: return (
-            <div>
-                <HolocronList/>
-            </div>
+            />
+        )
+        case 3: return (
+            <HolocronList />
+        )
+        case 4: return (
+            <GalaxyMap
+                changeState={changeState}
+            />
         )
         default: return (
             <div className={classes.mainPageContainer}>

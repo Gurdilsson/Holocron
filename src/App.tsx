@@ -3,9 +3,7 @@ import HolocronApplication from './Components/HolocronApplication';
 
 function App() {
   return (
-    <div>
-      <HolocronApplication/>
-    </div>
+    <HolocronApplication />
   );
 }
 

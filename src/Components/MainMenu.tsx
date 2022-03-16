@@ -41,10 +41,14 @@ function MainMenu({ changeState }: MainMenuProps) {
             <div className={classes.menuButton}>
                 <div className={classes.menuText}>L'équipage</div>
             </div>
-            <div className={classes.menuButton}>
+            <div
+                className={classes.menuButton}
+                onClick={() => changeState(3)}>
                 <div className={classes.menuText}>Les holocrons</div>
             </div>
-            <div className={classes.menuButton}>
+            <div
+                className={classes.menuButton}
+                onClick={() => changeState(4)}>
                 <div className={classes.menuText}>Les lieux</div>
             </div>
         </div>
