@@ -12,37 +12,24 @@ import Utapau from '../Images/Planets/Utapau.png'
 import Paradisia from '../Images/Planets/Paradisia.png'
 import useWindowDimensions from "../Hooks/UseWindowDimension"
 import PlanetLore from '../Data/Planet.json'
-import BackArrow from '../Images/back-arrow.jpg'
+import BackToMenuButton from "./BackToMenuButton";
 
 const useStyles = makeStyles({
     galaxyContainer: {
-    },
-    characterBackToMenuButton: {
-        position: 'fixed',
-        height: 20,
-        width: 20,
-        zIndex: 1000,
-        opacity: 0.3,
-        border: 'none',
-        backgroundImage: `url(${BackArrow})`,
-        backgroundSize: 'contain',
-    },
+    }
 })
 
 interface GalaxyMapProps {
     changeState: (number: number) => void
 }
 
-function GalaxyMap({changeState}: GalaxyMapProps) {
+function GalaxyMap({ changeState }: GalaxyMapProps) {
     const { height, width } = useWindowDimensions()
     const strength = height < width ? 200 : 800
     const classes = useStyles()
     return (
         <div>
-            <button
-                className={classes.characterBackToMenuButton}
-                onClick={() => changeState(0)}
-            />
+            <BackToMenuButton changeState={changeState} />
             <div className={classes.galaxyContainer}>
                 <ImageOne strength={strength} image={Spintir} name={"s p i n t i r"} />
                 <ParallaxText text={PlanetLore.Spintir} />

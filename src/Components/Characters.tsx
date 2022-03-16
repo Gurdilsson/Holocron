@@ -6,8 +6,8 @@ import Tann from '../Images/Tan12.jpg'
 import Stroke from '../Images/Stroke-05.jpg'
 import Teka from '../Images/Teka-07.jpg'
 import CharacterData from '../Data/CharacterData.json'
-import BackArrow from '../Images/back-arrow.jpg'
 import useWindowDimensions from "../Hooks/UseWindowDimension";
+import BackToMenuButton from "./BackToMenuButton";
 
 
 const useStyles = makeStyles({
@@ -43,16 +43,6 @@ const useStyles = makeStyles({
         backgroundColor: 'white',
         borderRadius: 20,
         overflow: 'scroll'
-    },
-    characterBackToMenuButton: {
-        position: 'fixed',
-        height: 20,
-        width: 20,
-        zIndex: 1000,
-        opacity: 0.3,
-        border: 'none',
-        backgroundImage: `url(${BackArrow})`,
-        backgroundSize: 'contain'
     },
     '@keyframes rotation': {
         '0%': {
@@ -98,10 +88,7 @@ function Characters({ changeState }: CharactersProps) {
 
     return (
         <div className={height > width ? classes.characterContainer : classes.characterContainerHorizontal} {...handlers}>
-            <button
-                className={classes.characterBackToMenuButton}
-                onClick={()=>changeState(0)}
-            />
+            <BackToMenuButton changeState={changeState} />
             <div className={classes.characterList} >
                 {characterList.map(character =>
                     <img
