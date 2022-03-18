@@ -38,7 +38,9 @@ function MainMenu({ changeState }: MainMenuProps) {
             >
                 <div className={classes.menuText}>Les personnages</div>
             </div>
-            <div className={classes.menuButton}>
+            <div
+                className={classes.menuButton}
+                onClick={() => changeState(2)}>
                 <div className={classes.menuText}>L'équipage</div>
             </div>
             <div

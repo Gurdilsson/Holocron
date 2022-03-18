@@ -24,7 +24,7 @@
         "Color": "yellow"
     },
     "Surveillante": {
-        "Name": "La surveilante",
+        "Name": "La surveillante",
         "Sequence": "Down Down Down Down",
         "Text": "Je suis la surveillante, gardienne de la sécurité et de la sérénité du temple de l'aube. \n \n J'ai longtemps été chargée de la sécurité du temple, mais maintenant que celui-ci est détruit, il ne me reste que me connaissances des arts de la guerre. Je peux transmettre les secrets jedis de la maîtrise du sabre laser, de sa fabrication aux diverses formes de combats utilisés lors de l'âge d'or de la République. Je peux aussi proposer des discussions sur l'usage de la Force au combat, et sur les routines de combat des chevaliers jedis.",
         "Color": "white"

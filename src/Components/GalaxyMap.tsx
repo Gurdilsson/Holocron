@@ -38,9 +38,9 @@ function GalaxyMap({ changeState }: GalaxyMapProps) {
                 <ParallaxText text={PlanetLore.Utapau} />
                 <ImageOne strength={strength} image={ZaunaThree} name={"z a u n a"} />
                 <ParallaxText text={PlanetLore.Zauna} />
-                <ImageOne strength={strength} image={MedusaFour} name={"m e d u s a  4"} />
+                <ImageOne strength={strength} image={MedusaFour} name={"m e d u s a  2"} />
                 <ParallaxText text={PlanetLore.Medusa} />
-                <ImageOne strength={strength} image={MedusaTwo} name={"m e d u s a  2"} />
+                <ImageOne strength={strength} image={MedusaTwo} name={"m e d u s a  6"} />
                 <ParallaxText text={PlanetLore.MedusaBis} />
                 <ImageOne strength={strength} image={Paradisia} name={"p a r a d i s i a"} />
                 <ParallaxText text={PlanetLore.Paradisia} />

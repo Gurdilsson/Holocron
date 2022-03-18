@@ -1,0 +1,22 @@
+{
+    "Ando": {
+        "Id": "Ando",
+        "Name": "Ando Vespin",
+        "Lore": "Historien né sur un monde du noyau, Ando a suivi des études d'histoire sous la République. Il a connu la chute des Jedis, et a fait comme but dans sa vie de ne pas perdre leur héritage. \n Il a beaucoup voyagé dans sa vie, essayant de protéger et de préserver les artefactes Jedis et d'en apprendre plus sur la Force. Ses voyages l'ont conduit à rencontrer de nombreuses personnes, dont certaines sensibles à la Force.\n Après une mésaventure avec un adepte du côté obscur, un certain Malefax, il a rejoint le groupe de ses sauveurs pour les accompagner dans leur quête. Il s'est particulièrement attaché à eux et essaie de les aider commme un mentor ou un père le ferait. Son nouveau but est de les aider à trouver leur voie. \n Il possède un appartement sur Corusant, où il stock sur des disquettes des tas et des tas d'informations sur la Force et sur la Galaxie et son histoire en général."
+    },
+    "Meliwe": {
+        "Id": "Meliwe",
+        "Name": "Méliwë",
+        "Lore": "Née dans les bas-fond de Corusant d'une mère danseuse de cabaret et peu aimante et d'un père absent, Méliwë a toujours rêvé de s'échapper et de vivre sa propre aventure.\n Livrée a elle-même la pluspart du temps, elle a très vite commencé à bidouiller divers objets dans le but de construire son propre vaisseau et de partir de la capitale.\n A quatorze ans, elle perdit sa dernière attache quand sa mère mouru dans une fusillade. Elle failli se faire capturer par des esclavagistes profitant de sa naïveté et se retrouva cachée dans le fond d'une cale d'un vieux vaisseau de transport, tremblante et à moitié morte de faim. \n Un mécanicien bourru la pris sous son aile et lui appris les rudiments du métier. Pour la première fois de sa vie, elle découvrit la joie d'avoir un père. Trois ans de pur bonheur au milieu des machines, du cambouis et des droïdes furent interrompus par attaque impériale contre leur vaisseau. L'intégralité de l'équipage fut tué, et elle ne survécu que pour amuser les soldats impériaux quelques temps avant de finir au fond d'une prison.\n Des rebelles la sortirent de là, et elle les rejoignit, jurant de faire payer à l'Empire ce qu'elle avait enduré. \n Lors d'une mission de ravitaillement, son vaisseau eu une avarie, elle s'écrasa sur Médusa 2. Elle y rencontra Tann et sa nouvelle famille."
+    },
+    "Devalan": {
+        "Id": "Devalan",
+        "Name": "Devalan",
+        "Lore": "Devalan a toujours vécu sur Medusa 6. Là-bas, comme beaucoup de jeunes de son âge, il avait le choix entre devenir fermier et mal tourner. Il a finit dans une bande de pillards sans foi ni loi. \n Très doué, il s'est vite imposé en petit chef, et a gardé sa place par la peur et l'intimidation. \n Arriva finalement le jour où il tomba sur plus fort que lui et où il se fit rosser, passer à tabac et traîné dans la poussière. Prisonnier, il pensait ne jamais s'en sortir, d'autant plus que ses ravisseurs n'étaient nuls autres que des Jedis dont parlent les légendes, dans une version moins héroïque et bien plus violente.\n Un de ses ravisseur, une ravissante Twi'lek bien plus jeune que lui passa plusieurs heures à lui faire la morale et étonnamment son discours ouvrit quelque chose dans le coeur de Devalan.\n Il passa une nuit entière attaché à réfléchir à ce que lui avait dit la jeune femme. Le lendemain, il avait pris sa décision: Tann lui offrait la possibilité de se racheter et de changer de vie, il allait la saisir. La première marque de confiance qu'il reçu se présenta sous la forme d'un blaster, qu'il garde toujours précieusement comme symbole de rédemption."
+    },
+    "Zavan": {
+        "Id": "Zavan",
+        "Name": "Zavan",
+        "Lore": "Zavan est un pilote utaï originaire d'Utapau. Bon vivant, il a très mal vécu l'occupation impériale et décida très tôt de s'engager dans la résistance de sa planète. Il rencontra Tann, Stroke, Teka et Matt lors d'un assaut héroïque contre des installations impériales et accepta de partir avec eux, convaincu par leur belle meneuse."
+    }
+}
