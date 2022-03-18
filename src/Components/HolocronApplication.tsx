@@ -39,7 +39,9 @@ function HolocronApplication() {
             />
         )
         case 3: return (
-            <HolocronList />
+            <HolocronList
+                changeState={changeState}
+            />
         )
         case 4: return (
             <GalaxyMap

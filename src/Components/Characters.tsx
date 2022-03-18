@@ -20,7 +20,7 @@ const useStyles = makeStyles({
     characterContainerHorizontal: {
         flexDirection: 'column',
         height: '100vh',
-        backgroundColor: 'lightBlue',
+        backgroundColor: 'black',
     },
     characterList: {
         display: 'flex',
@@ -36,7 +36,6 @@ const useStyles = makeStyles({
         border: 'solid',
         margin: 5,
         padding: 10,
-        animation: '$myAnim  15s infinite linear',
         textAlign: 'justify',
         flex: 1,
         whiteSpace: 'pre-line',
@@ -44,12 +43,15 @@ const useStyles = makeStyles({
         borderRadius: 20,
         overflow: 'scroll'
     },
+    characterTextAnimation: { //On garde ça de côté one ne sait jamais
+        animation: '$rotation 1s 1 linear'
+    },
     '@keyframes rotation': {
         '0%': {
-            transform: 'rotateX(180deg)'
+            transform: 'rotateY(360deg)'
         },
         '100%': {
-            transform: 'rotateX(0deg)'
+            transform: 'rotateY(0deg)'
         }
     }
 })
@@ -100,7 +102,7 @@ function Characters({ changeState }: CharactersProps) {
             </div>
             <div
                 className={classes.characterText}
-                style={{ transform: '' }}>
+            >
                 {getCharacterData()}
             </div>
         </div>
