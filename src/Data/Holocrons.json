@@ -13,43 +13,43 @@
     },
     "Carte": {
         "Name": "La carte",
-        "Sequence": "Left Up Right Down",
+        "Sequence": "Left Up Right Up Left",
         "Text": "On me connait sous bien des noms, mais le plus souvent, c'est Dal Won Du qui est retenu. \n \n J'ai parcouru bien des mondes et ai été témoin de bien des choses. A celui qui lira ce contenu, je lègue mes observations sur les lieux en lien avec la Force, que ce soit de près ou de loin. Certains d'entre eux ne sont que des légendes et des mythes. D'autres ont reçu ma marque, et celle-ci pourra vous guider dans vos moments de doute. \n \n Corusant: L'actuel palais de l'Empereur était à l'époque le temple Jedi.\n\n Phateem: Entre les pics des montagnes d'Ashlendu trônent les salles de la connaissances \n\n Kashyyk: La Force est puissante en ce lieu. \n\n Tund: Fut un temps où un ordre de sorcier puissant vivaient en ces lieux. \n\n Ilum: Planète chérie par l'Ordre Jedi, ils y envoyaient leurs Padawans en formation \n\n Bosthirda: selon plusieurs légendes, cette plnaète renferme de nombreuses connaissances Sith. Je peux affirmer que ce ne sont pas que des légendes. \n\n Dromund Kaas: Ce monde est considéré comme l'ancienne capitale de l'empire Sith. \n 1/2",
         "Color": "yellow"
     },
     "Carte2": {
         "Name": "La carte",
-        "Sequence": "Left Down Right Up",
+        "Sequence": "Right Up Left Up Right",
         "Text": "Korriban: Il n'est planète plus riche en enseignements et plus dangereuses que Korriban, dit monde natal des Siths. \n\n Osus: Dévastée par une supernova, elle abritait autrefois la Grande Bibliothèque Jedi. \n\n Byss: J'ai dit que Korriban était dangereuse ? Oubliez ça. Byss toute entière est une vergence du côté obscur. \n\n Mortis: Je n'ai jamais eu l'occasion d'y aller. Cette planète légendaire serait l'origine du conte du Père, du Fils et de la Fille. \n\n Ruusan: l'une des plus puissante vergence de la Force que j'ai' eu l'occasion d'observer. L'histoire de cette planète est de plus très ... instructive",
         "Color": "yellow"
     },
     "Surveillante": {
         "Name": "La surveillante",
-        "Sequence": "Down Down Down Down",
+        "Sequence": "Up Up Up Up",
         "Text": "Je suis la surveillante, gardienne de la sécurité et de la sérénité du temple de l'aube. \n \n J'ai longtemps été chargée de la sécurité du temple, mais maintenant que celui-ci est détruit, il ne me reste que me connaissances des arts de la guerre. Je peux transmettre les secrets jedis de la maîtrise du sabre laser, de sa fabrication aux diverses formes de combats utilisés lors de l'âge d'or de la République. Je peux aussi proposer des discussions sur l'usage de la Force au combat, et sur les routines de combat des chevaliers jedis.",
         "Color": "white"
     },
     "Demon": {
         "Name": "Le masque, forme 1",
-        "Sequence": "Left Right Left Up Down Up",
+        "Sequence": "Left Right Left Up Right Up",
         "Text": "Mon nom n'a que peu d'importance, de même que mon histoire. Si vous possédez ces données, c'est que vous êtes entré en contact avec le Masque Mortuaire de Sanguinus. \n \n Ce masque a une longue histoire. Toujours lié au côté puissant de la Force, il a accompagné des royaumes et des mondes vers la gloire, le sang et la puissance. Aujourd'hui, il n'est plus que l'ombre de lui même, car des êtres faibles ont osé le porter et tenter de s'accaparer sa puissance. Ce qu'il ne savaient pas, c'est que le masque possède autant qu'on le possède, et qu'il ne laisse jamais partir sans prélever son dû. \n J'ai moi-même été en possession du masque pendant plusieurs décennies, avant de devenir son gardien. J'ai vu de quoi il était capable, et ces données ont pour but d'accompagner celui qui s'engagera dans la voie du masque de sang. \n Tout d'abord, sachez que le masque vit, il n'est pas une simple décoration. Le sang, le massacre et la Force rendent son porteur et lui-même bien plus puissant. Plus vous arriverez à restaurer sa gloire ancienne, plus cet holocron vous révèlera son plein potentiel... \n\n\n Niveau 1 : Seuil de blessure + 2, \n Dé noir pour résister aux tests de coercition du porteur",
         "Color": "red"
     },
     "Demon2": {
         "Name": "Le masque, forme 2",
-        "Sequence": "Right Left Right Left Up Down Up Left Down",
+        "Sequence": "Right Left Right Left Up Up Up Left Right",
         "Text": "Bien. Vous avancez, et le masque regagne sa grandeur. Comme je l'ai déjà dis, le masque se nourrit. Du sang, de la peur, de la haine, de la Force. Et il a toujours besoin de plus\n Des érudits décrivait cela comme une spirale infernale. J'appelle ça une spirale vers la puissance et la gloire. Certe le prix à payer est toujours plus élevé. Le Masque se contente d'abord de prendre des vies. Puis des innocents. Le Masque se délecte de la peur de ses victimes. \n Il est toutefois important de noter qu'il attire les convoitises. Ne dormez jamais sur vos deux oreilles, car les avides ne sont jamais loins. \n\n\n Niveau 2 : Possibilité de faire apparaître directement le masque sur soit pour une manoeuvre.\n Seuil de blessure +4 \nSeuil de stress -2 \nVolonté +1",
         "Color": "red"
     },
     "Demon3": {
         "Name": "Le masque, forme 3",
-        "Sequence": "Right Left Right Left Right Left Up Down Left Down Left Up Right",
+        "Sequence": "Right Left Right Left Right Left Up Right Left Up Left Up Right",
         "Text": "Un seigneur noir a un jour fait la réflexion que le Masque était une entité à part entière, liée d'une façon ou d'une autre à la Force. Je pense pour ma part que c'est bien plus que ça. Le Masque vit par la Force. Le porteur est un vecteur qui permet à cette entité qui nous surpasse en tout point de se manifester.\n J'ai vu des choses que bien des gens qualifieraient d'effrayantes. J'ai porté le masque, et j'ai vu par Ses yeux le monde.\n J'ai vu mes alliés se tourner contre moi. Le Masque m'avait prévenu. Je les ai vu venir. J'ai brisé les derniers liens qui retenaient ma liberté. Et c'est ce qu'Il attendait de moi.\n J'ai remarqué qu'Il savourait beaucoup plus les offrandes du côté lumineux. Comme si il s'abreuvait de leur essence, de leur énergie. A vérifier. \n\n\n Niveau 3 : Possibilité de faire apparaître directement le masque sur soit pour une broutille. \n Possibilité de voir les auras des personnes, vivibles ou non dans les 20 mètres aux alentours. \n Seuil de blessure +5\n Seuil de stress -3 \n Valeur de Force +1 ",
         "Color": "red"
     },
     "Demon4": {
         "Name": "Le masque, forme 4",
-        "Sequence": "Up Left Up Right Up Down Down Left Down Up Down Right Up Up Right Left Down Up",
+        "Sequence": "Up Left Up Right Up Up Right Left Right Up Up Right Up Up Right Left Right Up",
         "Text": "A chaque fois que je crois m'approcher un peu plus de la toute puissance, Il me montre que j'en suis encore loin. J'ai arrêté de compter le nombre de mondes baignant dans le sang après notre passage. Je ne compte plus les montagnes de crânes laissés sur notre route.\n Les Jedis commencent à s'inquiéter. Neufs d'entre eux ont déjà péris sous Nos coups. La dernière ne devaient pas avoir vingt ans. Il s'est régalé.\n J'ai parfois l'impression de perdre pied. Une enveloppe mortelle n'est pas fait pour recevoir autant de puissance. Pendant un de mes moments de lucidité, il m'est venu une refléxion intéressante, que je prends ici le soin de noter. IL n'est pas seul. Et IL n'est pas ici. Ou plutôt Il est ici sans y être. Et il garde avec lui les âmes (je répugne toujours à utiliser ce terme tiré des pires superstitions mais je n'en ai toujours pas trouvé de meilleur) de ceux qu'il prend. Pour un temps du moins. Elles deviennent ensuite folles, et sombrent en lui. Les utilisateurs de la Force mettent toujours plus de temps à sombrer. Leur désespoir agrémente mes nuits sans sommeil. \n\n Niveau 4: Annulation de tous les malus des niveaux précédents. \n Malus de deux dés noirs pour tout test de la Force contre le porteur.\n Récupération de deux Blessures par victime.\n Valeur de Force +2 \n Caractéristiques +1\n Accès en méditation au 'Monde derrière le masque' : récupération de 1PV/h",
         "Color": "red"
     }
