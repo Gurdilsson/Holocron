@@ -69,7 +69,9 @@ const useStyles = makeStyles({
         marginTop: '11vh',
         textAlign: 'justify',
         whiteSpace: 'pre-line',
-        zIndex: 5
+        zIndex: 5,
+        height: '80vh',
+        overflow: 'scroll'
     },
     falconAnimation: {
         animation: '$falcon-animation1 8s infinite linear',
@@ -145,7 +147,7 @@ function Crew({ changeState }: CrewProps) {
     }
 
     return (
-        <div className={classes.crewContainer} {...handlers}>
+        <div className={classes.crewContainer}>
             <BackToMenuButton changeState={changeState} />
             <div className={classes.crewSelector}>
                 <div className={classNames(classes.crewButton, classes.bookMark)} onClick={() => displayLore("Ando")} />
@@ -159,7 +161,8 @@ function Crew({ changeState }: CrewProps) {
             <div
                 className={classNames(classes.falcon, direction)}
                 onAnimationIteration={() => setDirection(nextDirection)}
-                style={{ zIndex: zIndex }}></div>
+                style={{ zIndex: zIndex }}
+                {...handlers}/>
         </div >
     )
 }

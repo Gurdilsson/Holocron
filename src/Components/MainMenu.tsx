@@ -1,13 +1,15 @@
 import { makeStyles } from "@material-ui/styles";
 import React from "react";
+import Stars from '../Images/Space_Stars_Background.png'
 
 const useStyles = makeStyles({
     menuContainer: {
         display: 'grid',
         gridTemplateColumns: '50% 50%',
-        margin: '20px 10% 0px',
+        padding: '20px 10% 0px',
         columnGap: 10,
-        rowGap: 10
+        rowGap: 10,
+        backgroundImage: `url(${Stars})`,
     },
     menuButton: {
         backgroundColor: 'lightblue',
