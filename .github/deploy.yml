@@ -1,0 +1,28 @@
+name: Deploy 🚀
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    name: Deploy 🚀
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        name: Setup Node.js
+
+      - run: npm ci
+
+      - name: Publish github pages
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/Gurdilsson/Holocron.git
+          git config user.email ${MAIL}
+          git config user.name ${NAME}
+          npm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAIL: ${{ secrets.MAIL }}
+          NAME: ${{ secrets.NAME }}
