@@ -1,12 +1,1 @@
-<table>
-  <tr>
-    <th>Branch</th>
-    <th>Build Status</th>
-  </tr>
-  <tr>
-    <td>Main</td>
-    <td>
-        <img src="https://github.com/Gurdilsson/Holocron/workflows/Build/badge.svg?branch=main"/>
-    </td>
-  </tr>
-</table>
+[![Deploy 🚀](https://github.com/Gurdilsson/Holocron/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/Gurdilsson/Holocron/actions/workflows/deploy.yml)
