@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Holocron/static/css/main.37110938.css",
-    "main.js": "/Holocron/static/js/main.02cee6c7.js",
+    "main.js": "/Holocron/static/js/main.bc01132f.js",
     "static/js/787.594cb043.chunk.js": "/Holocron/static/js/787.594cb043.chunk.js",
     "static/media/Thalis.png": "/Holocron/static/media/Thalis.37c319e3f5695d5bf3ad.png",
     "static/media/Space_Stars_Background.png": "/Holocron/static/media/Space_Stars_Background.9c6408c16cd112b189a8.png",
@@ -26,11 +26,11 @@
     "static/media/KeyBoard.svg": "/Holocron/static/media/KeyBoard.1330cd04ed3fbb306e22a3a0ddcc9ff3.svg",
     "static/media/BookMark.svg": "/Holocron/static/media/BookMark.8995fd2181f0ee6d98f2999f6e93e71f.svg",
     "main.37110938.css.map": "/Holocron/static/css/main.37110938.css.map",
-    "main.02cee6c7.js.map": "/Holocron/static/js/main.02cee6c7.js.map",
+    "main.bc01132f.js.map": "/Holocron/static/js/main.bc01132f.js.map",
     "787.594cb043.chunk.js.map": "/Holocron/static/js/787.594cb043.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37110938.css",
-    "static/js/main.02cee6c7.js"
+    "static/js/main.bc01132f.js"
   ]
 }
