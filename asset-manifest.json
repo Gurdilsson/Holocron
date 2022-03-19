@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Holocron/static/css/main.37110938.css",
+    "main.js": "/Holocron/static/js/main.02cee6c7.js",
+    "static/js/787.594cb043.chunk.js": "/Holocron/static/js/787.594cb043.chunk.js",
+    "static/media/Thalis.png": "/Holocron/static/media/Thalis.37c319e3f5695d5bf3ad.png",
+    "static/media/Space_Stars_Background.png": "/Holocron/static/media/Space_Stars_Background.9c6408c16cd112b189a8.png",
+    "static/media/Zauna3.png": "/Holocron/static/media/Zauna3.1719f34d007d1d0452ef.png",
+    "static/media/Nur.png": "/Holocron/static/media/Nur.d3fd63546c34c115ee9f.png",
+    "static/media/Medusa2.png": "/Holocron/static/media/Medusa2.9b5e96c88e1a0fcd753d.png",
+    "static/media/Medusa4.png": "/Holocron/static/media/Medusa4.8cab9ce479a61f8ba850.png",
+    "static/media/Utapau.png": "/Holocron/static/media/Utapau.5947deba12c147fd2967.png",
+    "static/media/Spintir.png": "/Holocron/static/media/Spintir.63571ad7ef192353668e.png",
+    "static/media/Paradisia.png": "/Holocron/static/media/Paradisia.fad7f4903550dc11aae4.png",
+    "static/media/Tan12.jpg": "/Holocron/static/media/Tan12.da183a83d03289aa89cf.jpg",
+    "static/media/Stroke-05.jpg": "/Holocron/static/media/Stroke-05.69ae4ceb500fc6ce4ed0.jpg",
+    "static/media/matt07.jpg": "/Holocron/static/media/matt07.d634531e152c1ebd357a.jpg",
+    "static/media/Teka-07.jpg": "/Holocron/static/media/Teka-07.7bfa35e61d1f28c601ad.jpg",
+    "static/media/Falcon.png": "/Holocron/static/media/Falcon.2275d8089fdadd1f6177.png",
+    "static/media/holocronFace.png": "/Holocron/static/media/holocronFace.b40293016421a57e18b0.png",
+    "static/media/Starjedi.ttf": "/Holocron/static/media/Starjedi.8d577dc1e1755c4860f3.ttf",
+    "static/media/back-arrow.jpg": "/Holocron/static/media/back-arrow.d3a6680675e6e8e18adc.jpg",
+    "index.html": "/Holocron/index.html",
+    "static/media/Rocket.svg": "/Holocron/static/media/Rocket.e886babf871ec3a272a671f6a6703fe7.svg",
+    "static/media/Wrench.svg": "/Holocron/static/media/Wrench.f4307c18d4378db0ed05f1712aa87380.svg",
+    "static/media/KeyBoard.svg": "/Holocron/static/media/KeyBoard.1330cd04ed3fbb306e22a3a0ddcc9ff3.svg",
+    "static/media/BookMark.svg": "/Holocron/static/media/BookMark.8995fd2181f0ee6d98f2999f6e93e71f.svg",
+    "main.37110938.css.map": "/Holocron/static/css/main.37110938.css.map",
+    "main.02cee6c7.js.map": "/Holocron/static/js/main.02cee6c7.js.map",
+    "787.594cb043.chunk.js.map": "/Holocron/static/js/787.594cb043.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37110938.css",
+    "static/js/main.02cee6c7.js"
+  ]
+}
