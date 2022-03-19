@@ -1,7 +1,6 @@
 import { makeStyles } from "@material-ui/styles";
 import React from "react";
 import { Parallax } from "react-parallax";
-import Space from "../../Images/Space3.jpg"
 
 const useStyles = makeStyles({
     parallaxOne: {

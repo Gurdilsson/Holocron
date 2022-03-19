@@ -126,13 +126,13 @@ function Crew({ changeState }: CrewProps) {
     const [actualMember, setActualMember] = useState<CrewMember>()
     const handlers = useSwipeable({
         onSwiped: (eventData) => {
-            if (eventData.dir == 'Right') {
+            if (eventData.dir === 'Right') {
                 setNextDirection(classes.falconAnimation2)
-            } else if (eventData.dir == 'Left') {
+            } else if (eventData.dir === 'Left') {
                 setNextDirection(classes.falconAnimation3)
-            } else if (eventData.dir == "Up") {
+            } else if (eventData.dir === "Up") {
                 setZIndex(10)
-            } else if (eventData.dir == "Down") {
+            } else if (eventData.dir === "Down") {
                 setNextDirection(classes.falconAnimation)
                 setZIndex(0)
             }

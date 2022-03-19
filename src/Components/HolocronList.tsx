@@ -39,9 +39,9 @@ const useStyles = makeStyles({
 })
 
 function compareArray(firstArray: string[], secondArray: string[]): boolean {
-    if (firstArray.length != secondArray.length) return false
+    if (firstArray.length !== secondArray.length) return false
     for (let i = 0; i < firstArray.length; i++) {
-        if (firstArray[i] != secondArray[i]) {
+        if (firstArray[i] !== secondArray[i]) {
             return false
         }
     }

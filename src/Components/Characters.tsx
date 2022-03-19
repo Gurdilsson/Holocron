@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/styles";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { useSwipeable } from "react-swipeable";
 import Matt from '../Images/matt07.jpg'
 import Tann from '../Images/Tan12.jpg'
@@ -67,9 +67,9 @@ function Characters({ changeState }: CharactersProps) {
     const [percent, setPercent] = useState(0)
     const handlers = useSwipeable({
         onSwiped: (eventData) => {
-            if (eventData.dir == 'Left') {
+            if (eventData.dir === 'Left') {
                 nextImage()
-            } else if (eventData.dir == 'Right') {
+            } else if (eventData.dir === 'Right') {
                 previousImage()
             }
         }
@@ -81,7 +81,7 @@ function Characters({ changeState }: CharactersProps) {
         setPercent((percent + 100) % 400)
     }
     function previousImage() {
-        percent == 0 ? setPercent(300) : setPercent(percent - 100)
+        percent === 0 ? setPercent(300) : setPercent(percent - 100)
     }
     function getCharacterData() {
         const actualCharacter: string = characterStringList[percent / 100].toString()
