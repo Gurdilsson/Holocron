@@ -9,6 +9,7 @@ _ Add some piew piew laser with the millenium condor
 _ Fix the scrolling issues in the holocron window
 
 /!\ This app only works for the moment on mobile, or with the mobile view in the navigator. /!\ 
+Here is the link to the application: https://gurdilsson.github.io/Holocron/
 
 App Status: 
 [![Deploy 🚀](https://github.com/Gurdilsson/Holocron/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/Gurdilsson/Holocron/actions/workflows/deploy.yml)
